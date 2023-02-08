@@ -1,2 +1,1 @@
-# alx-system_engineering-devops
-still doing hard things
+shell basics task
