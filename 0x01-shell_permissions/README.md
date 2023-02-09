@@ -1,0 +1,1 @@
+tasks about shell & permissions
