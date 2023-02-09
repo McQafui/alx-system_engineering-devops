@@ -1,1 +1,1 @@
-tasks about shell & permissions
+task about shell & permissions
