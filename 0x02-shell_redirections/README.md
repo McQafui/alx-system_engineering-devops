@@ -45,4 +45,7 @@ takes a list of words as input and prints only words that appear exactly once.
     Words should be sorted
 
 15. grep -i root /etc/passwd
-display lines containing the pattern “root” from the file /etc/passwd
+displays lines containing the pattern “root” from the file /etc/passwd
+
+16. grep -i bin /etc/passwd | wc -l
+displays the number of lines that contain the pattern “bin” in the file /etc/passwd
