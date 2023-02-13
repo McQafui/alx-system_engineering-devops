@@ -6,3 +6,6 @@ script displays a confused smiley "(Ôo)'
 
 3. cat /etc/passwd
 displays the content of etc/passwd
+
+4. cat /etc/passwd /etc/hosts
+displays the contents of passwd and hosts
