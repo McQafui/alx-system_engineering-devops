@@ -9,3 +9,6 @@ displays the content of etc/passwd
 
 4. cat /etc/passwd /etc/hosts
 displays the contents of passwd and hosts
+
+5. tail -n 10 /etc/passwd
+displays the last 10 lines of /etc/passwd
