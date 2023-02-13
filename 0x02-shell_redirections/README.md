@@ -16,5 +16,5 @@ displays the last 10 lines of /etc/passwd
 6. head -n 10 /etc/passwd
 displays the first 10 lines of /etc/passwd
 
-7. tail -n 3 | tail -n 1 iacta
+7. tail -n 3 iacta | tail -n 1
 displays the third line of iacta
