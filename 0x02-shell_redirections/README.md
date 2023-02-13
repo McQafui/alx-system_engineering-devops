@@ -36,3 +36,10 @@ counts the number of directories and sub-directories in the current directory
 
 13. ls -t | head
 displays the 10 newest files in the current directory
+
+14. sort | uniq -u
+takes a list of words as input and prints only words that appear exactly once.
+
+    Input format: One line, one word
+    Output format: One line, one word
+    Words should be sorted
