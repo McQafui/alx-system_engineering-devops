@@ -27,3 +27,6 @@ writes into the file ls_cwd_content the result of the command ls -la. If the fil
 
 10. echo $(tail -n 1 iacta) >> iacta
 duplicates the last line of iacta file
+
+11. find . -type f -name "*.js" -delete
+deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders.
