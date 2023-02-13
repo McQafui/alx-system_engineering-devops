@@ -18,3 +18,6 @@ displays the first 10 lines of /etc/passwd
 
 7. tail -n 3 iacta | tail -n 1
 displays the third line of iacta
+
+8.echo 'Best School' > \*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
+creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line 
