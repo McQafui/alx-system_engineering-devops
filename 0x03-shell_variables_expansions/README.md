@@ -35,3 +35,6 @@ displays the result of BREATH to the power LOVE
 
 11. echo $((2#${BINARY}))
 converts a number from base 2 to base 10.
+
+12. printf "%s\n" {a..z}{a..z} | grep -v "oo"
+prints all possible combinations of two letters, except oo
