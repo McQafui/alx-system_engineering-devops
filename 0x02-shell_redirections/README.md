@@ -64,3 +64,6 @@ replaces all characters A and c from input to Z and e respectively.
 
 21. tr -d cC
 creates a script that removes all letters c and C from input
+
+22. rev
+script that reverse its input
