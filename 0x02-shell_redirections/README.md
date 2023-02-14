@@ -55,3 +55,6 @@ displays lines containing the pattern “root” and 3 lines after them in the f
 
 18. grep -iv bin /etc/passwd
 displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+19. grep -i "^[a-z]" /etc/ssh/sshd_config
+displays all lines of the file /etc/ssh/sshd_config starting with a letter
