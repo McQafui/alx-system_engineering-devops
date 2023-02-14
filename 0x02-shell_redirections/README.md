@@ -74,5 +74,9 @@ displays all users and their home directories, sorted by users
 24. find . -empty -printf "%f\n"
 finds all empty files and directories in the current directory and all sub-directories
 
-25. find . -name \*.gif -type f -printf "%f\n" | LC_COLLATE=C sort --ignore-case | rev | cut -c 5- | rev
-script that lists all the files with a .gif extension in the current directory and all its sub-directories 
+25. find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f
+script that lists all the files with a .gif extension in the current directory and all its sub-directories
+
+26. cut -c 1 | tr -d '\n' | sort
+script that decodes acrostics that use the first letter of each line
+ 
