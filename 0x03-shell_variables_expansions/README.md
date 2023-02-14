@@ -26,3 +26,6 @@ creates a new global variable
 
 8. echo $((128 + $TRUEKNOWLEDGE))
 prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE
+
+9. echo $((POWER/DIVIDE)) 
+displays the result of BREATH to the power LOVE
