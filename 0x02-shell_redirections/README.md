@@ -61,3 +61,6 @@ displays all lines of the file /etc/ssh/sshd_config starting with a letter
 
 20. tr Ac Ze
 replaces all characters A and c from input to Z and e respectively.
+
+21. tr -d cC
+creates a script that removes all letters c and C from input
