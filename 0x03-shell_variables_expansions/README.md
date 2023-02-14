@@ -17,3 +17,6 @@ lists environment variables
 
 5. set
 lists all local variables and environment variables, and functions
+
+6. BEST="School"
+that creates a new local variable.
