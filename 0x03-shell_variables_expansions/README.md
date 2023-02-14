@@ -11,3 +11,6 @@ script that adds /action to the PATH. /action
 
 3. echo $PATH | tr -s ":" "\n" | wc -l
 script that counts the number of directories in the PATH
+
+4. printenv
+script that lists environment variables
