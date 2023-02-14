@@ -70,3 +70,6 @@ script that reverse its input
 
 23. cut -d':' -f1,6 /etc/passwd | sort
 displays all users and their home directories, sorted by users
+
+24. find . -empty -printf "%f\n"
+finds all empty files and directories in the current directory and all sub-directories
