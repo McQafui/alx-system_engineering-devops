@@ -80,5 +80,5 @@ script that lists all the files with a .gif extension in the current directory a
 26. cut -c 1 | tr -d '\n' | sort
 script that decodes acrostics that use the first letter of each line
 
-27. cut -f1 -d$'\t' | sort | uniq -c | tr -s ' ' | sort -t' ' -k1 -nr | head -11 | cut -d' ' -f3
+27. tail -n +2 | sort | cut -f1 | uniq -c | sort -g -r | head -11 | tr -s " " | cut -d" " -f3 
 script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by number of requests, most active host or IP at the top 
