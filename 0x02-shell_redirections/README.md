@@ -58,3 +58,6 @@ displays all the lines in the file /etc/passwd that do not contain the pattern â
 
 19. grep -i "^[a-z]" /etc/ssh/sshd_config
 displays all lines of the file /etc/ssh/sshd_config starting with a letter
+
+20. tr Ac Ze
+replaces all characters A and c from input to Z and e respectively.
