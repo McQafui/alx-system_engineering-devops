@@ -47,3 +47,6 @@ converts a number from base 10 to base 16
 
 15. cat | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 encodes and decodes text using the rot13 encryption. Assume ASCII
+
+16. cat -n | grep [13579][[:space:]] | tr -s ' ' | cut -f2
+prints every other line from the input, starting with the first line
