@@ -67,3 +67,6 @@ creates a script that removes all letters c and C from input
 
 22. rev
 script that reverse its input
+
+23. cut -d':' -f1,6 /etc/passwd | sort
+displays all users and their home directories, sorted by users
