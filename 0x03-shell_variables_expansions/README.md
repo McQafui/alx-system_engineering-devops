@@ -44,3 +44,6 @@ prints a number with two decimal places, followed by a new line.
 
 14. printf "%x\n" "$DECIMAL"
 converts a number from base 10 to base 16
+
+15. cat | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+encodes and decodes text using the rot13 encryption. Assume ASCII
