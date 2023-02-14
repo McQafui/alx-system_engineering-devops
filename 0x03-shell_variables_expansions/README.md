@@ -19,4 +19,7 @@ lists environment variables
 lists all local variables and environment variables, and functions
 
 6. BEST="School"
-that creates a new local variable.
+creates a new local variable.
+
+7. export BEST="School"
+creates a new global variable
