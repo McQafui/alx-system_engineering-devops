@@ -29,3 +29,6 @@ prints the result of the addition of 128 with the value stored in the environmen
 
 9. echo $((POWER/DIVIDE)) 
 displays the result of BREATH to the power LOVE
+
+10. echo $((BREATH**LOVE))
+displays the result of BREATH to the power LOVE
